@@ -8,4 +8,5 @@
 * [**Práctica 2**](https://github.com/agusrnfr/CPLP/blob/main/Practica/Practica%202.pdf)
 * [**Práctica 3**](https://github.com/agusrnfr/CPLP/blob/main/Practica/Practica%203.pdf)
 * [**Práctica 4**](https://github.com/agusrnfr/CPLP/blob/main/Practica/Practica%204.pdf)
-* [**Práctica 5**](https://github.com/agusrnfr/CPLP/blob/main/Practica/Practica%205.pdf) (muy propensa a errores)
+* [**Práctica 5**](https://github.com/agusrnfr/CPLP/blob/main/Practica/Practica%205.pdf)
+* [**Práctica 6**](https://github.com/agusrnfr/CPLP/blob/main/Practica/Practica%206.pdf)
