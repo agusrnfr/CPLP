@@ -11,4 +11,5 @@
 * [**Práctica 5**](https://github.com/agusrnfr/CPLP/blob/main/Practica/Practica%205.pdf)
 * [**Práctica 6**](https://github.com/agusrnfr/CPLP/blob/main/Practica/Practica%206.pdf)
 * [**Práctica 7**](https://github.com/agusrnfr/CPLP/blob/main/Practica/Practica%207.pdf)
+* [**Práctica 8**](https://github.com/agusrnfr/CPLP/blob/main/Practica/Practica%208.pdf)
 * [**Práctica 9**](https://github.com/agusrnfr/CPLP/blob/main/Practica/Practica%209.pdf)
