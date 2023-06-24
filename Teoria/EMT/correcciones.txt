@@ -1,0 +1,31 @@
+EMT 1. 	
+3)M.  La sintaxis abstracta es la misma mientras que la concreta es diferente en el uso de un identificador al incrementarlo y compararlo o sentencias con diferente estructura sintácitca.
+
+EMT 2.
+4- M. En este ejercicio se pedía que contesten que tipos de pasajes de parámetros (valor, resultado, valor-res, ref... etc) se debe utilizar para lograr que la impresión en pantalla sea diferente de acuerdo al tipo de parámetro que se esté utilizando. Esto teniendo en cuenta que no permite o  se requiere NO acceder al entorno de la unidad llamante (, es decir a su registro de activación) para utilizar el parámetro ( por lo que debería realizarse una copia del parámetro real), por lo tanto estamos hablando de pasaje por valor y valor resultado. Donde además se deben explicar brevemente su funcionamiento. Además se pide que se conteste si estos tipos de pasajes de parámetros pueden presentar un error que, en este caso en particular, se daría en el caso de resultado al no inicializar la variable y. Se podría  definir a valor-constante como una posibilidad que no es incorrecto completamente pero no es del todo acertada ya que no se indica si se realiza o no una copia, por lo tanto no estamos seguros si se está accediendo o no al entorno del llamante. Por último se slicitaba que se escriba el resultado de la impresión de toda la ejecución con cada tipo de parámetro elegido en forma correcta.
+
+En tu caso sólo mencionas el pasaje por valor sin responder el resto de la pregunta.
+
+EMT 3.
+Respuesta general de resolución de los ejercicios
+
+1) Verdadero, falso, falso
+
+2)  Si se ingresa de 1 a 5 entra por alguna de las opciones del case y asigna el valor a las 2 variables. 
+
+Si se ingresa 6 a 10 no están considerados en los case, tampoco el código contempla otros casos ni valida el ingreso, y el resultado en estos casos será res=0 y modificado = false.
+
+La particularidad es que si bien utiliza break al no presentar la sentencia default no se están tomando en cuenta todos los caminos posibles, lo que podría llevar a generar algún tipo de error. Podrían darse situaciones no deseadas
+
+3) El ejercicio tenia una pregunta inicial genérica para manejar cualquier tipo de error, más allá  del error presentado. 
+
+Se esperaba que mencionaran que se puede usar un gestor en PHP que permita capturar aquellas excepciones que no son capturadas, o mediante la definición de una función set_exception_handler(). 
+
+Podría definirse un manejador para la clase Exception, por ejemplo utilizando try{}  catch(Exception $e){....}
+
+Como resultado de la ejecución se imprimirá en este ejemplo concreto dividió por 0 (o el que hayan especificado en el código del manejador) y luego las sentencias del finally se ejecutaran siempre e imprimirán “se produjo un error en la división”
+
+4)  Los paradigmas son funcional el primero y el segundo es Imperativo (o procedural).
+
+La característica de seguridad la da el funcional ya que tiene la particularidad de la transparencia referencial que significa que dos expresiones sintácticamente iguales darán el mismo valor y esto reduce los errores y hace que no se produzcan efectos colaterales, como se ve en el procedural donde se puede llegar a modificar el valor de n
+
